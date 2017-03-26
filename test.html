@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			html,body{
+				margin: 0;
+				height: 100%;
+			}
+			.center{
+				height: 100%;
+				/*margin: 0 210px;*/
+				overflow: hidden;
+				/*BFC*/
+				background: red;
+				}
+				.left{
+					float: left;
+					width: 200px;
+					height: 100%;
+					margin-right: 10px;
+					background:cyan;
+				}	
+				.right{
+					float: right;
+					width: 200px;
+					height: 100%;
+					margin-left: 10px;
+					
+					background:cyan;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="center">
+	</body>
+</html>
